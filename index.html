@@ -35,14 +35,29 @@
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="https://wa.me/557788586720" target="_blank">
                     <button >Contato</button>
                 </a> 
             </div> <!-- btn-contato-->
-
-            
         </div> <!--Interface-->
+        <div class="menu-mobile">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                        
+                </ul>
+            </nav>
 
+        </div> <!--menu-mobile-->
+
+        <button id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button> <!--btn-menu-->
     </header>
     
     <main>
@@ -54,7 +69,7 @@
                         <p>Aprendendo a ser um programador em um passo de cada vez.</p>
 
                         <div class="btn-contato">
-                            <a href="">
+                            <a href="https://wa.me/557788586720" target="_blank">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -74,20 +89,17 @@
                     <div class="especialidades-box">
                         <i class="bi bi-github"></i>
                         <h3>GitHub</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p> Upar arquivos, criar read.me  e fazer o fork do projeto.</p>
                     </div><!--especialidades-box-->
                     <div class="especialidades-box">
-                        <i class="bi bi-instagram"></i>
-                        <h3>Instagram</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <i class="bi bi-git" id="git"></i>
+                        <h3>Git</h3>
+                        <p> Criar repositórios, upar  branches, fazer merge entre elas e muito mais!</p>
                     </div><!--especialidades-box-->
                     <div class="especialidades-box">
-                        <i class="bi bi-linkedin"></i>
-                        <h3>LinkedIn</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <ion-icon name="logo-javascript" class></ion-icon></i>
+                        <h3>JavaScript</h3>
+                        <p>Criação de animações e funcionalidades. </p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
@@ -100,8 +112,8 @@
                     </div> <!--img-sobre-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU JOÃO VICTOR.</span></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p></p>
+                        <p>Me chamo João Victor Carvalho, mas meus amigos me chamam de Resolute. Eu tenho 20 anos e estou cursando Sistemas de Informação na Unex.</p>
+                        <p>Gosto da área da computação desde criança, mas só fui começar a estudar por agora. Estou estudando HTML, CSS e JavaScript, e também um pouquinho de Java.</p>
 
                         <div class="btn-social">
                             <a target="_blank" href="https://www.instagram.com/jvcarvallho__/"><button><i class="bi bi-instagram"></button></i></a>
@@ -114,11 +126,67 @@
                 </div><!--flex-->
             </div><!--interface-->
 
-        </section>
+        </section> <!--Sobre-->
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(./images/airbnb.png);">
+                        <div class="overlay">
+                            Projeto 1
+                        </div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./images/aumento-salarial.png);">
+                        <div class="overlay">
+                            Projeto 2
+                        </div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./images/devlinks.png);">
+                        <div class="overlay">
+                            Projeto 3
+                        </div>
+                    </div>
+                </div>
+            </div><!--Interface-->
+        </section> <!--Portfólio-->
+        <section class="formulario">
+            <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Seu Nome Completo:" required>
+                <input type="email" name="" id="" placeholder="Seu E-mail:" required>
+                <input type="tel" id="" placeholder="Seu Celular:"></textarea required>
+                <textarea name="" id="" placeholder="Sua Mensagem:" required></textarea>
+                <div class="btn-enviar">
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </section> <!--Formulário-->
+
 
     </main>
 
+    <footer>
+        <div class="interface">
+            <div class="line-footer" style="border-bottom: 2px solid #2e0264 ">
+                <div class="flex">
+                <div class="logo-footer">
+                    <img src="./images/logo.png" alt="logo R">
+                </div>
+                <div class="btn-social">
+                    <a target="_blank" href="https://www.instagram.com/jvcarvallho__/"><button><i class="bi bi-instagram"></button></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-victor-carvalho-446a9a263/"><button><i class="bi bi-linkedin"></button></i></a>
+                    <a target="_blank" href="https://github.com/ResoluteeDev"><button><i class="bi bi-github"></button></i></a>
+                </div>
+            </div> <!--flex-->
+            </div> <!--line-footer-->
+            <div class="line-footer">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:dev.resolutee@gmail.com">dev.resolutee@gmail.com</a></p>
+            </div> <!--line-footer-->
+        </div><!--Interface-->
+    </footer> <!--Rodapé-->
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
